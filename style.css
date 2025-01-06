@@ -1,0 +1,450 @@
+body{
+    color:white;
+    background-color:#000000;
+    filter: invert(1);
+}
+ .flex{
+    display: flex;
+ }
+ .container{
+    display: flex;
+    gap: 23px;
+    justify-content: space-between;
+ }
+ .search{
+    margin: 0px -13px 0px 18px
+ }
+ .boxicon{
+    margin: 0px -100px 0px 100px;
+ }
+ .flex1{
+    border: 2px solid black;
+    display: flex;
+    gap: 13px;
+    width: 360px;
+    border-radius: 22px;
+    height: 31px;
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+}
+.home{
+    margin: 11px 23px -2px -1px;
+}
+input{
+    outline: none;
+    border: none;
+}
+.flex2{
+    display: flex;
+    gap: 11px;
+}
+.Explore button{
+    border: 2px solid;
+    margin: 2px 0px 0px 0px;
+    border-radius: 13px;
+    height: 26px;
+    color: #ffffff;
+    background-color: rgb(0 0 0);
+    font-size: 11px;
+    font-weight: 600;
+}
+.install button{
+    border: 2px solid;
+    margin: 6px 0px 0px 0px;
+    /* border-radius: 13px; */
+    height: 22px;
+    color: black;
+    background: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    padding: 9px -10px -3px -12px;
+    border: none;
+    display: flex;
+    gap: 3px;
+}
+.spotify{
+    margin: 7px 0px 0px 0px;
+}
+.main{
+    display: flex;
+    gap: 4px; 
+    margin: 4px -7px -2px -7px;
+}
+.invert{
+    filter: invert(1);
+}
+.left{
+    width: 25vw;
+    /* border: 2px solid; */
+    border-radius: 8px;
+    color:rgb(253, 253, 253);
+    background-color:#121212;
+    filter: invert(1);
+    padding: 12px;
+}
+.right{
+    width: 75vw;
+    /* border: 2px solid; */
+    border-radius: 8px;
+    color:rgb(253, 253, 253);
+    background-color:#121212;
+    filter: invert(1);
+    height: 80vh;
+    /* overflow: scroll; */
+  
+}
+.flex4{
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+}
+.margin{
+    margin: 1px 0px 0px 37px;
+}
+.Playlists button{
+    color: black;
+    background-color: #ffffff;
+    margin: 12px 0px;
+}
+.recent img{
+    margin: 0px 5px;
+}
+.box{
+    height: 30px;
+    width: 40px;
+    margin: 11px 0px;
+    text-align: center;
+    /* border: 1px solid; */
+    padding: 7px 0px 0px 1px;
+    background: #282828;
+    position: relative;
+    top: -9px;
+    
+}
+.header{
+    width: 75vw;
+    background-color: rgb(54 16 10);
+    box-shadow:  17px 45px 61px rgb(54 16 10);
+    /* position:sticky;
+    top: 0px; */
+}
+.gap{
+    display: flex;
+    gap: 4px;
+    margin: 0px 5px;
+}
+.Sumant{
+    font-size: 29px;
+    font-weight: 700;
+    font-family: system-ui;
+    margin: 12px;
+}
+.image{
+    height: 24vh;
+    width: 200px;
+    border: 1px solid black;
+    margin: 22px 0px 26px 13px;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    
+}
+.image img{
+    height: 24vh;
+    width:200px; 
+    object-fit: cover; 
+}
+.GreenBtn{
+    border: 1px solid black;
+    height: 42px;
+    width: 44px;
+    border-radius: 50px;
+    position: relative;
+    left: 134px;
+    bottom: 80px;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+}
+.image:hover .GreenBtn{
+    background-color: rgb(15, 255, 31);
+   opacity: 1;
+}
+/*   */
+.outer> img{
+    height: 42px;
+    position: absolute;  
+}
+.cardContainer{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    max-height: 58vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}
+/* Apply to the entire webpage */
+body {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #444 #222; /* Thumb and Track colors */
+}
+
+/* For WebKit browsers (Chrome, Edge, etc.) */
+::-webkit-scrollbar {
+    width: 8px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+    background: #222; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444; /* Thumb color */
+    border-radius: 10px; /* Rounded edges for thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+}
+::-webkit-scrollbar-thumb {
+    background: #444;
+    transition: background 0.3s ease; /* Smooth transition on hover */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Slightly lighter on hover */
+}
+button{
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(199, 189, 189);
+}
+.Explore1 button:hover{
+    background-color: #121212;
+    height: 28px;
+}
+.install button:hover{
+    background-color: #f5efef;
+    height: 28px;
+  
+}
+.Centre{
+    justify-content: center;
+}
+.playbar{
+    height: 50px;
+    width: 100%;
+    /* background-color: #000000; */
+    margin: 7px 0px 0px 0px;
+    gap: 23px;
+    justify-content: center;
+    position: relative;
+    top: 4px;
+    
+}
+.margin2{
+    margin: 6px 0px 0px 0px;
+}
+.circleline{
+    width: 37vw;
+    height: 3px;
+    border:2px;
+    border-radius: 2px;
+    /* border: 3px rgb(0 0 0); */
+    background-color: #000000;
+    margin: -12px 0px 0px 0px;
+    cursor: pointer;
+}
+.CircleSeek{
+    height: 9px;
+    width: 10px;
+    border: 2px;
+    border-radius: 100%;
+    background-color: #000000;
+    margin: -3px 0px;
+    position: relative;
+    left: 0%;
+    transition: left 0.5s;
+    cursor: pointer;
+}
+.volume{
+    margin: 1px -63px -3px 1px;
+}
+.songlist{
+    height:48vh;
+    overflow: auto;
+    /* width: 254px; */
+    /* border: 2px solid; */
+}
+.songlist ul{
+    /* list-style-type: decimal; */
+    /* margin: 0px 0px 0px -37px; */
+    margin: 0px 0px 0px -37px;
+    font-size: 11px;
+    font-family: math;
+}
+.songlist ul li{
+    list-style-type: decimal;
+    display: flex;
+    gap: 18px;
+    padding: 8px 5px;
+    border: 1px solid;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.playnow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.songinfo{
+    color: rgb(0, 0, 0);
+    height: 17px;
+    color: rgb(0, 0, 0);
+    height: 17px;
+    width: 169px;
+    /* border: 1px solid #000000; */
+    position: fixed;
+    left: 187px;
+    bottom: -3px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    font-family: sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.songtime{
+    color: rgb(0, 0, 0);
+    height: 17px;
+    width: 179px;
+    /* border: 1px solid #000000; */
+    position: fixed;
+    bottom: -3px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+    right: 176px;
+  }
+  #seekbar{
+    cursor: pointer;
+  }
+  .hambarger{
+    display: none;
+  }
+  .close{
+    display: none;
+  }
+.Sidevol{
+    display: flex;
+    position: relative;
+    bottom: 6px;
+    margin: -18px 0px 0px 0px;
+    left: 6px;
+    width: 91%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.range input{
+    cursor: pointer;
+}
+
+  @media (max-width:700px){
+    .container{
+        display: flex;
+        flex-flow:column;
+        width: 86vw;
+    }
+    .right{
+        width: 120vw;
+        position: relative;
+        left: 0px;
+        z-index: 0;
+        height: 66vh;
+    }
+    .left{
+        width: 352px;
+        position: absolute;
+        left: -389px;
+        transition: all .3s;
+        z-index: 1;
+        top: 6px;
+    }
+    .media{
+        width: 55vw;
+        display: flex;
+        flex-flow:column;
+        /* justify-content: center; */
+    }
+    .boxicon{
+        margin: 0px 0px 0px 104px
+    }
+    .home{
+        margin: 6px 0px;
+    }
+    .flex2{
+        display: flex;
+        gap: 40px;
+        margin: -14px -19px 3px 3px
+    }
+    footer{
+        width: 82vw;
+        height: 8vh;
+    }
+    .header{
+        width: 100%;
+    }
+    .hambarger{
+        display: block;
+        /* height: 34px;
+        width: 34px; */
+    }
+    .home{
+        display:flex;
+        /* justify-content: space-between; */
+        gap: 37vh;
+    }
+    .Playlists{
+        display: flex;
+        justify-content: space-between;
+    }
+    .close{
+        display: block;
+    }
+    .cardContainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 112px;
+        max-height: 25vh;
+        width: 100%;
+        /* flex-direction: row; */
+    }
+    .image img{
+        width: 174px;
+        margin: 12px 0px;
+
+    }
+    .Sidevol{
+        position: relative;
+        bottom: 20px;
+        margin: -4px 0px 0px 16px;
+    
+    }
+  }
+  .myimage{
+    height: 88px;
+    width: 155px;
+    border: 2px solid red;
+  }
+  .myimage img{
+    height: 88px;
+    width: 155px;
+  }

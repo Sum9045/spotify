@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 100 100">
+  <!-- Circle -->
+  <circle cx="50" cy="50" r="50" fill="rgb(0, 235, 223)"/>
+  <!-- Text -->
+  <text x="50" y="60" font-family="Arial, sans-serif" font-size="50" fill="black" text-anchor="middle">A</text>
+</svg>
